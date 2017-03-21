@@ -1,0 +1,16 @@
+On start - 
+
+Pull up a start up menu, just a simple text box. It will have options as follows:
+
+Campaign
+Arena
+Versus
+Chaos Mode
+Options
+Exit
+
+None of them will do anything right now. But can make Versus start my testing mode for now. 
+
+Exit will obviously close the program. Then it will pull up the full sized UI.
+
+
