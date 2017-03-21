@@ -1,0 +1,66 @@
+Air - 
+10*A[1] - TORNADO "Deal 10 damage to all enemy targets
+10*A[1] - MONSOON "Deal 7 damage to all enemy targets, Destroy all current Water spell effects. Bolster Fire 4."
+1*A [2] - UPDRAFT "Gain 2 Extra *A next turn only, Bolster Air 1"
+2*A [2] - DARK CLOUDS "Permanently gain 1 extra *A"
+2*A [5] - DUST DEVIL "Deal 3 Damage to all enemy targets, Hinder Air 1"
+5*A [3] - STRONG WINDS "Bolster Air 2, Prepare 1 Spell"
+
+Water - 
+10*W[1] - TSUNAMI "Deal 6 Damage to all non-water enemies, Bolster Water 5"
+10*W[1] - LEVIATHAN creature 20/20 "Immune"
+4*W [3] - BLOOD SCENT - Summon 3 3/1 SHARK creatures with "Rush"
+2*W [5] - SHARK - 3/1 "Rush"
+3*W [4] - GRANT GILLS - "Any damage to this target from a Hinder Water 3."
+1*W [5] - CALL OF THE SEA - "Add 1 attack to all Water creatures in play, Bolster Water 1"
+
+Earth - 
+4*E [4] - STONE SKIN - "Add a layer of stone to a creature, add 3 to their health and 1 to their attack"
+2*E [4] - CALL OF THE WILD - "Summon 2 1/1 RAT creatures and give them Rush"
+1*E [5] - RAT - 1/1
+3*E [5] - MOLTEN CORE - "Bolster Fire 1, Bolster Earth 1, Prepare 1 Spell"
+3*E [5] - CALL SHIP - "Creature halves Water and Air damage to it, but doubles Fire and Earth damage" 
+2*E [5] - WOLF - 2/2 "Gains 1 Attack for each other WOLF on the field"
+
+Fire - 
+7*F [1] - DROUGHT - "Prepare 3 MONSOON cards that can be cast for 5*F"
+1*F [3] - EMBER - "Deal 1 Damage, Bolster Fire 1"
+3*F [3] - FLAME - "Deal 2 Damage, Bolster Fire 1"
+10*F[2] - FIRESTORM - "Deal 10 Damage To all Targets"
+2*F [4] - FLAME SPURT - "Deal 1 Damage to all Targets"
+3*F [5] - SACRIFICE TO THE FLAMES - "Deal 2 Damage to yourself, then Deal 3 Damage"
+1*F [3] - FLAME SPITTER - "1/1 - Instead of attacking directly, creature does a ranged Fire attack"
+
+Dark - 
+1*D [5] - SHADOW RITES - "Deal 3 Damage to yourself, Prepare 1 Spell"
+1*D [5] - SHADOW FIEND - 1/1 "Immune"
+5*D [2] - SUMMON THE VOID - "Banish 2: all creatures"
+2*D [4] - LOST IN DARKNESS - "Banish 1: all enemy spell effects"
+2*D [5] - SHADOW GHOUL - 2/2 "Immune"
+3*D [5] - DEAL WITH THE DEVIL - "Deal 3 Damage to yourself, Bolster Dark 3, Prepare 1 Spell
+
+Light - 
+2*L [4] - SERVANT OF THE LIGHT - 1/1 "Bolster Light 1 for each damage done by this creature"
+2*L [4] - LIGHT CALLER - 1/2 "Last Will: Bolster Light 1"
+4*L [4] - CHERUB - 3/4 "Last Will: Bolster Light 2"
+5*L [4] - PURGE - "Deal 4 Damage, Double to Shadow creatures"
+4*L [3] - LIGHT OF HOPE - "Deal 2 Damage to all Enemy creatures, Heal 4 To all Friendlies"
+10*L[10]- ARCHANGEL - 15/10 - Heals all friendly targets by 12, Bolster Light 5
+
+KEYWORDS - 
+"Immune" - Is only effected by creature damage or "Destroy"/"Banish" spells.
+"Destroy" - Remove spell effect or creature from the match entirely.
+"Banish" - Spell effect or creature is removed for the game for a set number of turns, and then returned to it's prior state.
+"Rush" - Creature can attack immediately after being summoned.
+"Bolster [Magic Type] [#]" - Will permanently increase a certain type of magic damage by a set value. 
+"Hinder [Magic Type] [#]" - Will permanently decrease a certain type of magic damage by a set value.
+"Spell Effects" - An ongoing effect caused by a spell, such as Field Spells. Does not include any Bolter / Hinder values.
+"Last Will" - An effect that activates when a creature dies
+
+Have a "Devotion" mechanic to unlock spells? You gain +1 devotion for each ranked game you meet a certain prerequisite (cannot quit the game early) and once you hit a 
+	certain threshold for Devotion, you unlock certain spells. So for example, Fire devotion might require reaching 10 fire mana
+	and it might require 2-3 devotion for many basic fire spells, but perhaps 30 devotion for the hardest ones or even
+	50-100. Maybe 100 Devotion for the most OP spells in the game in each magic type. Have like 1-2 legendary spells for
+	each magic type. 
+
+Have like... 10-15 Spell slots, and you can cast as many spells as you are allowed based on whatever spells and their rarity. If you run out of spells to cast, you lose in 3 turns.
