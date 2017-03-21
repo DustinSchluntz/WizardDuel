@@ -1,1 +1,9 @@
 C:\Users\Dustin Work\Documents\GitHub\WizardDuel\Current Game\Wizard Duel\Wizard Duel\bin\Debug\Wizard Duel.exe.config
+C:\Users\Dustin Work\Documents\GitHub\WizardDuel\Current Game\Wizard Duel\Wizard Duel\bin\Debug\Wizard Duel.exe
+C:\Users\Dustin Work\Documents\GitHub\WizardDuel\Current Game\Wizard Duel\Wizard Duel\bin\Debug\Wizard Duel.pdb
+C:\Users\Dustin Work\Documents\GitHub\WizardDuel\Current Game\Wizard Duel\Wizard Duel\obj\Debug\Wizard Duel.csprojResolveAssemblyReference.cache
+C:\Users\Dustin Work\Documents\GitHub\WizardDuel\Current Game\Wizard Duel\Wizard Duel\obj\Debug\Wizard_Duel.Form1.resources
+C:\Users\Dustin Work\Documents\GitHub\WizardDuel\Current Game\Wizard Duel\Wizard Duel\obj\Debug\Wizard_Duel.Properties.Resources.resources
+C:\Users\Dustin Work\Documents\GitHub\WizardDuel\Current Game\Wizard Duel\Wizard Duel\obj\Debug\Wizard Duel.csproj.GenerateResource.Cache
+C:\Users\Dustin Work\Documents\GitHub\WizardDuel\Current Game\Wizard Duel\Wizard Duel\obj\Debug\Wizard Duel.exe
+C:\Users\Dustin Work\Documents\GitHub\WizardDuel\Current Game\Wizard Duel\Wizard Duel\obj\Debug\Wizard Duel.pdb
