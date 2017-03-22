@@ -7,3 +7,4 @@ C:\Users\Dustin Work\Documents\GitHub\WizardDuel\Current Game\Wizard Duel\Wizard
 C:\Users\Dustin Work\Documents\GitHub\WizardDuel\Current Game\Wizard Duel\Wizard Duel\obj\Debug\Wizard Duel.csproj.GenerateResource.Cache
 C:\Users\Dustin Work\Documents\GitHub\WizardDuel\Current Game\Wizard Duel\Wizard Duel\obj\Debug\Wizard Duel.exe
 C:\Users\Dustin Work\Documents\GitHub\WizardDuel\Current Game\Wizard Duel\Wizard Duel\obj\Debug\Wizard Duel.pdb
+C:\Users\Dustin Work\Documents\GitHub\WizardDuel\Current Game\Wizard Duel\Wizard Duel\obj\Debug\Wizard_Duel.Versus.resources
