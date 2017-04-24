@@ -15,7 +15,7 @@ namespace Wizard_Duel
         public Versus()
         {
             InitializeComponent();
-            MessageBox.Show("I am here!");
+            
         }
 
         private void Versus_Load(object sender, EventArgs e)
@@ -25,7 +25,7 @@ namespace Wizard_Duel
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("I am here!");
         }
     }
 }

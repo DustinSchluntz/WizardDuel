@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Wizard_Duel;
+using static System.Windows.Forms.DataFormats;
 
 namespace Wizard_Duel
 {
@@ -29,7 +31,7 @@ namespace Wizard_Duel
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Form Versus = new Form();
+            Versus Versus = new Versus();
             Versus.Show();
         }
 
@@ -48,6 +50,11 @@ namespace Wizard_Duel
         private void button6_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
