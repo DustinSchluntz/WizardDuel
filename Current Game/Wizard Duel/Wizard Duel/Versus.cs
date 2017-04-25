@@ -22,6 +22,10 @@ namespace Wizard_Duel
         {
 
         }
-        
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
