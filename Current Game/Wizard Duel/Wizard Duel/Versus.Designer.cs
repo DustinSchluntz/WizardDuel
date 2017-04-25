@@ -28,34 +28,41 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.versusPlayArea = new System.Windows.Forms.SplitContainer();
+            ((System.ComponentModel.ISupportInitialize)(this.versusPlayArea)).BeginInit();
+            this.versusPlayArea.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // versusPlayArea
             // 
-            this.button1.Location = new System.Drawing.Point(304, 191);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(598, 239);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "BUTTON!";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.versusPlayArea.BackColor = System.Drawing.SystemColors.Info;
+            this.versusPlayArea.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.versusPlayArea.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.versusPlayArea.Location = new System.Drawing.Point(0, 0);
+            this.versusPlayArea.Name = "versusPlayArea";
+            this.versusPlayArea.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            this.versusPlayArea.Size = new System.Drawing.Size(1248, 620);
+            this.versusPlayArea.SplitterDistance = 310;
+            this.versusPlayArea.SplitterWidth = 1;
+            this.versusPlayArea.TabIndex = 0;
             // 
             // Versus
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1248, 620);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.versusPlayArea);
             this.Name = "Versus";
             this.Text = "VERSUS";
             this.Load += new System.EventHandler(this.Versus_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.versusPlayArea)).EndInit();
+            this.versusPlayArea.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.SplitContainer versusPlayArea;
     }
 }
