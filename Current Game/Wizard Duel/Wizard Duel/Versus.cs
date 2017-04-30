@@ -53,5 +53,15 @@ namespace Wizard_Duel
         {
 
         }
+
+        private void removeEnemyHealth_Click(object sender, EventArgs e)
+        {
+            enemyHealth.Text = (Int32.Parse(enemyHealth.Text) - 1).ToString();
+        }
+
+        private void removePlayerHealth_Click(object sender, EventArgs e)
+        {
+            playerHealth.Text = (Int32.Parse(playerHealth.Text) - 1).ToString();
+        }
     }
 }

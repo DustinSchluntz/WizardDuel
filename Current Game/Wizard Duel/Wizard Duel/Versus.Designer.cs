@@ -30,17 +30,19 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Versus));
             this.versusPlayArea = new System.Windows.Forms.SplitContainer();
+            this.removeEnemyHealth = new System.Windows.Forms.Button();
             this.enemySpellbook = new System.Windows.Forms.Panel();
             this.enemyCasts = new System.Windows.Forms.Label();
             this.castsRemainingTextEnemy = new System.Windows.Forms.Label();
             this.enemyHealth = new System.Windows.Forms.Label();
             this.opponentName = new System.Windows.Forms.Label();
+            this.removePlayerHealth = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.playerSpellbook = new System.Windows.Forms.Panel();
             this.playerCasts = new System.Windows.Forms.Label();
             this.castsRemainingTextPlayer = new System.Windows.Forms.Label();
             this.playerHealth = new System.Windows.Forms.Label();
             this.playerName = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.versusPlayArea)).BeginInit();
             this.versusPlayArea.Panel1.SuspendLayout();
             this.versusPlayArea.Panel2.SuspendLayout();
@@ -60,6 +62,7 @@
             // 
             // versusPlayArea.Panel1
             // 
+            this.versusPlayArea.Panel1.Controls.Add(this.removeEnemyHealth);
             this.versusPlayArea.Panel1.Controls.Add(this.enemySpellbook);
             this.versusPlayArea.Panel1.Controls.Add(this.enemyHealth);
             this.versusPlayArea.Panel1.Controls.Add(this.opponentName);
@@ -68,6 +71,7 @@
             // 
             // versusPlayArea.Panel2
             // 
+            this.versusPlayArea.Panel2.Controls.Add(this.removePlayerHealth);
             this.versusPlayArea.Panel2.Controls.Add(this.label1);
             this.versusPlayArea.Panel2.Controls.Add(this.playerSpellbook);
             this.versusPlayArea.Panel2.Controls.Add(this.playerHealth);
@@ -76,6 +80,16 @@
             this.versusPlayArea.SplitterDistance = 319;
             this.versusPlayArea.SplitterWidth = 1;
             this.versusPlayArea.TabIndex = 0;
+            // 
+            // removeEnemyHealth
+            // 
+            this.removeEnemyHealth.Location = new System.Drawing.Point(485, 78);
+            this.removeEnemyHealth.Name = "removeEnemyHealth";
+            this.removeEnemyHealth.Size = new System.Drawing.Size(322, 99);
+            this.removeEnemyHealth.TabIndex = 3;
+            this.removeEnemyHealth.Text = "REMOVE HEALTH";
+            this.removeEnemyHealth.UseVisualStyleBackColor = true;
+            this.removeEnemyHealth.Click += new System.EventHandler(this.removeEnemyHealth_Click);
             // 
             // enemySpellbook
             // 
@@ -127,6 +141,29 @@
             this.opponentName.TabIndex = 0;
             this.opponentName.Text = "NAME";
             // 
+            // removePlayerHealth
+            // 
+            this.removePlayerHealth.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
+            this.removePlayerHealth.Location = new System.Drawing.Point(485, 97);
+            this.removePlayerHealth.Name = "removePlayerHealth";
+            this.removePlayerHealth.Size = new System.Drawing.Size(322, 99);
+            this.removePlayerHealth.TabIndex = 4;
+            this.removePlayerHealth.Text = "REMOVE HEALTH";
+            this.removePlayerHealth.UseVisualStyleBackColor = true;
+            this.removePlayerHealth.Click += new System.EventHandler(this.removePlayerHealth_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.ControlText;
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(2812, 13);
+            this.label1.TabIndex = 4;
+            this.label1.Text = resources.GetString("label1.Text");
+            this.label1.Click += new System.EventHandler(this.label1_Click_1);
+            // 
             // playerSpellbook
             // 
             this.playerSpellbook.BackColor = System.Drawing.SystemColors.InactiveCaption;
@@ -177,18 +214,6 @@
             this.playerName.TabIndex = 2;
             this.playerName.Text = "NAME";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.ControlText;
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Margin = new System.Windows.Forms.Padding(0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(2812, 13);
-            this.label1.TabIndex = 4;
-            this.label1.Text = resources.GetString("label1.Text");
-            this.label1.Click += new System.EventHandler(this.label1_Click_1);
-            // 
             // Versus
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -226,5 +251,7 @@
         private System.Windows.Forms.Label enemyCasts;
         private System.Windows.Forms.Label playerCasts;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button removeEnemyHealth;
+        private System.Windows.Forms.Button removePlayerHealth;
     }
 }
