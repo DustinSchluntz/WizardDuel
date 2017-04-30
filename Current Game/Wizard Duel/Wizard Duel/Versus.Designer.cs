@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Versus));
             this.versusPlayArea = new System.Windows.Forms.SplitContainer();
             this.enemySpellbook = new System.Windows.Forms.Panel();
             this.enemyCasts = new System.Windows.Forms.Label();
@@ -39,6 +40,7 @@
             this.castsRemainingTextPlayer = new System.Windows.Forms.Label();
             this.playerHealth = new System.Windows.Forms.Label();
             this.playerName = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.versusPlayArea)).BeginInit();
             this.versusPlayArea.Panel1.SuspendLayout();
             this.versusPlayArea.Panel2.SuspendLayout();
@@ -62,14 +64,16 @@
             this.versusPlayArea.Panel1.Controls.Add(this.enemyHealth);
             this.versusPlayArea.Panel1.Controls.Add(this.opponentName);
             this.versusPlayArea.Panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.versusPlayArea.Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.versusPlayArea_Panel1_Paint);
             // 
             // versusPlayArea.Panel2
             // 
+            this.versusPlayArea.Panel2.Controls.Add(this.label1);
             this.versusPlayArea.Panel2.Controls.Add(this.playerSpellbook);
             this.versusPlayArea.Panel2.Controls.Add(this.playerHealth);
             this.versusPlayArea.Panel2.Controls.Add(this.playerName);
-            this.versusPlayArea.Size = new System.Drawing.Size(1248, 620);
-            this.versusPlayArea.SplitterDistance = 310;
+            this.versusPlayArea.Size = new System.Drawing.Size(1343, 620);
+            this.versusPlayArea.SplitterDistance = 319;
             this.versusPlayArea.SplitterWidth = 1;
             this.versusPlayArea.TabIndex = 0;
             // 
@@ -173,11 +177,23 @@
             this.playerName.TabIndex = 2;
             this.playerName.Text = "NAME";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.ControlText;
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(2812, 13);
+            this.label1.TabIndex = 4;
+            this.label1.Text = resources.GetString("label1.Text");
+            this.label1.Click += new System.EventHandler(this.label1_Click_1);
+            // 
             // Versus
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1248, 620);
+            this.ClientSize = new System.Drawing.Size(1343, 620);
             this.Controls.Add(this.versusPlayArea);
             this.Name = "Versus";
             this.Text = "VERSUS";
@@ -209,5 +225,6 @@
         private System.Windows.Forms.Label castsRemainingTextPlayer;
         private System.Windows.Forms.Label enemyCasts;
         private System.Windows.Forms.Label playerCasts;
+        private System.Windows.Forms.Label label1;
     }
 }
