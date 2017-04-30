@@ -32,6 +32,7 @@ namespace Wizard_Duel
         private void button3_Click(object sender, EventArgs e)
         {
             Versus Versus = new Versus();
+            Hide();
             Versus.Show();
         }
 
