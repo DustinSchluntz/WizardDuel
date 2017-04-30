@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             this.versusPlayArea = new System.Windows.Forms.SplitContainer();
-            this.opponentName = new System.Windows.Forms.Label();
-            this.enemyHealth = new System.Windows.Forms.Label();
-            this.playerName = new System.Windows.Forms.Label();
-            this.playerHealth = new System.Windows.Forms.Label();
             this.enemySpellbook = new System.Windows.Forms.Panel();
-            this.playerSpellbook = new System.Windows.Forms.Panel();
-            this.castsRemainingTextEnemy = new System.Windows.Forms.Label();
-            this.castsRemainingTextPlayer = new System.Windows.Forms.Label();
             this.enemyCasts = new System.Windows.Forms.Label();
+            this.castsRemainingTextEnemy = new System.Windows.Forms.Label();
+            this.enemyHealth = new System.Windows.Forms.Label();
+            this.opponentName = new System.Windows.Forms.Label();
+            this.playerSpellbook = new System.Windows.Forms.Panel();
             this.playerCasts = new System.Windows.Forms.Label();
+            this.castsRemainingTextPlayer = new System.Windows.Forms.Label();
+            this.playerHealth = new System.Windows.Forms.Label();
+            this.playerName = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.versusPlayArea)).BeginInit();
             this.versusPlayArea.Panel1.SuspendLayout();
             this.versusPlayArea.Panel2.SuspendLayout();
@@ -73,15 +73,34 @@
             this.versusPlayArea.SplitterWidth = 1;
             this.versusPlayArea.TabIndex = 0;
             // 
-            // opponentName
+            // enemySpellbook
             // 
-            this.opponentName.AutoSize = true;
-            this.opponentName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.opponentName.Location = new System.Drawing.Point(8, 23);
-            this.opponentName.Name = "opponentName";
-            this.opponentName.Size = new System.Drawing.Size(117, 24);
-            this.opponentName.TabIndex = 0;
-            this.opponentName.Text = "WRONG";
+            this.enemySpellbook.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.enemySpellbook.Controls.Add(this.enemyCasts);
+            this.enemySpellbook.Controls.Add(this.castsRemainingTextEnemy);
+            this.enemySpellbook.Location = new System.Drawing.Point(12, 64);
+            this.enemySpellbook.Name = "enemySpellbook";
+            this.enemySpellbook.Size = new System.Drawing.Size(118, 162);
+            this.enemySpellbook.TabIndex = 2;
+            // 
+            // enemyCasts
+            // 
+            this.enemyCasts.AutoSize = true;
+            this.enemyCasts.Location = new System.Drawing.Point(26, 14);
+            this.enemyCasts.Name = "enemyCasts";
+            this.enemyCasts.Size = new System.Drawing.Size(71, 37);
+            this.enemyCasts.TabIndex = 1;
+            this.enemyCasts.Text = "000";
+            // 
+            // castsRemainingTextEnemy
+            // 
+            this.castsRemainingTextEnemy.AutoSize = true;
+            this.castsRemainingTextEnemy.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.castsRemainingTextEnemy.Location = new System.Drawing.Point(10, 51);
+            this.castsRemainingTextEnemy.Name = "castsRemainingTextEnemy";
+            this.castsRemainingTextEnemy.Size = new System.Drawing.Size(101, 15);
+            this.castsRemainingTextEnemy.TabIndex = 0;
+            this.castsRemainingTextEnemy.Text = "Casts Remaining";
             // 
             // enemyHealth
             // 
@@ -94,35 +113,15 @@
             this.enemyHealth.Text = "00";
             this.enemyHealth.Click += new System.EventHandler(this.label1_Click);
             // 
-            // playerName
+            // opponentName
             // 
-            this.playerName.AutoSize = true;
-            this.playerName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.playerName.Location = new System.Drawing.Point(21, 267);
-            this.playerName.Name = "playerName";
-            this.playerName.Size = new System.Drawing.Size(77, 24);
-            this.playerName.TabIndex = 2;
-            this.playerName.Text = "WRONG";
-            // 
-            // playerHealth
-            // 
-            this.playerHealth.AutoSize = true;
-            this.playerHealth.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.playerHealth.Location = new System.Drawing.Point(38, 29);
-            this.playerHealth.Name = "playerHealth";
-            this.playerHealth.Size = new System.Drawing.Size(55, 39);
-            this.playerHealth.TabIndex = 2;
-            this.playerHealth.Text = "00";
-            // 
-            // enemySpellbook
-            // 
-            this.enemySpellbook.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.enemySpellbook.Controls.Add(this.enemyCasts);
-            this.enemySpellbook.Controls.Add(this.castsRemainingTextEnemy);
-            this.enemySpellbook.Location = new System.Drawing.Point(12, 64);
-            this.enemySpellbook.Name = "enemySpellbook";
-            this.enemySpellbook.Size = new System.Drawing.Size(118, 162);
-            this.enemySpellbook.TabIndex = 2;
+            this.opponentName.AutoSize = true;
+            this.opponentName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.opponentName.Location = new System.Drawing.Point(8, 23);
+            this.opponentName.Name = "opponentName";
+            this.opponentName.Size = new System.Drawing.Size(66, 24);
+            this.opponentName.TabIndex = 0;
+            this.opponentName.Text = "NAME";
             // 
             // playerSpellbook
             // 
@@ -134,15 +133,15 @@
             this.playerSpellbook.Size = new System.Drawing.Size(118, 162);
             this.playerSpellbook.TabIndex = 3;
             // 
-            // castsRemainingTextEnemy
+            // playerCasts
             // 
-            this.castsRemainingTextEnemy.AutoSize = true;
-            this.castsRemainingTextEnemy.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.castsRemainingTextEnemy.Location = new System.Drawing.Point(10, 51);
-            this.castsRemainingTextEnemy.Name = "castsRemainingTextEnemy";
-            this.castsRemainingTextEnemy.Size = new System.Drawing.Size(101, 15);
-            this.castsRemainingTextEnemy.TabIndex = 0;
-            this.castsRemainingTextEnemy.Text = "Casts Remaining";
+            this.playerCasts.AutoSize = true;
+            this.playerCasts.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.playerCasts.Location = new System.Drawing.Point(26, 10);
+            this.playerCasts.Name = "playerCasts";
+            this.playerCasts.Size = new System.Drawing.Size(71, 37);
+            this.playerCasts.TabIndex = 2;
+            this.playerCasts.Text = "000";
             // 
             // castsRemainingTextPlayer
             // 
@@ -154,24 +153,25 @@
             this.castsRemainingTextPlayer.TabIndex = 1;
             this.castsRemainingTextPlayer.Text = "Casts Remaining";
             // 
-            // enemyCasts
+            // playerHealth
             // 
-            this.enemyCasts.AutoSize = true;
-            this.enemyCasts.Location = new System.Drawing.Point(26, 14);
-            this.enemyCasts.Name = "enemyCasts";
-            this.enemyCasts.Size = new System.Drawing.Size(69, 37);
-            this.enemyCasts.TabIndex = 1;
-            this.enemyCasts.Text = "000";
+            this.playerHealth.AutoSize = true;
+            this.playerHealth.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.playerHealth.Location = new System.Drawing.Point(38, 29);
+            this.playerHealth.Name = "playerHealth";
+            this.playerHealth.Size = new System.Drawing.Size(55, 39);
+            this.playerHealth.TabIndex = 2;
+            this.playerHealth.Text = "00";
             // 
-            // playerCasts
+            // playerName
             // 
-            this.playerCasts.AutoSize = true;
-            this.playerCasts.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.playerCasts.Location = new System.Drawing.Point(26, 10);
-            this.playerCasts.Name = "playerCasts";
-            this.playerCasts.Size = new System.Drawing.Size(69, 37);
-            this.playerCasts.TabIndex = 2;
-            this.playerCasts.Text = "000";
+            this.playerName.AutoSize = true;
+            this.playerName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.playerName.Location = new System.Drawing.Point(12, 267);
+            this.playerName.Name = "playerName";
+            this.playerName.Size = new System.Drawing.Size(66, 24);
+            this.playerName.TabIndex = 2;
+            this.playerName.Text = "NAME";
             // 
             // Versus
             // 

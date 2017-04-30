@@ -22,11 +22,16 @@ namespace Wizard_Duel
             player.Name = "ARGOS";
             player.Health = 50;
             player.CastsRemaining = 100;
+            playerName.Text = player.Name;
+            playerHealth.Text = player.Health.ToString();
+            playerCasts.Text = player.CastsRemaining.ToString();
 
             computer.Name = "COMPUTER";
             computer.Health = 50;
             computer.CastsRemaining = 100;
             opponentName.Text = computer.Name;
+            enemyHealth.Text = computer.Health.ToString();
+            enemyCasts.Text = computer.CastsRemaining.ToString();
         }
 
         private void Versus_Load(object sender, EventArgs e)
