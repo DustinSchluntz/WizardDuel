@@ -81,7 +81,7 @@
             this.opponentName.Name = "opponentName";
             this.opponentName.Size = new System.Drawing.Size(117, 24);
             this.opponentName.TabIndex = 0;
-            this.opponentName.Text = "COMPUTER";
+            this.opponentName.Text = "WRONG";
             // 
             // enemyHealth
             // 
@@ -91,7 +91,7 @@
             this.enemyHealth.Name = "enemyHealth";
             this.enemyHealth.Size = new System.Drawing.Size(55, 39);
             this.enemyHealth.TabIndex = 1;
-            this.enemyHealth.Text = "50";
+            this.enemyHealth.Text = "00";
             this.enemyHealth.Click += new System.EventHandler(this.label1_Click);
             // 
             // playerName
@@ -102,7 +102,7 @@
             this.playerName.Name = "playerName";
             this.playerName.Size = new System.Drawing.Size(77, 24);
             this.playerName.TabIndex = 2;
-            this.playerName.Text = "ARGOS";
+            this.playerName.Text = "WRONG";
             // 
             // playerHealth
             // 
@@ -112,7 +112,7 @@
             this.playerHealth.Name = "playerHealth";
             this.playerHealth.Size = new System.Drawing.Size(55, 39);
             this.playerHealth.TabIndex = 2;
-            this.playerHealth.Text = "50";
+            this.playerHealth.Text = "00";
             // 
             // enemySpellbook
             // 
@@ -161,7 +161,7 @@
             this.enemyCasts.Name = "enemyCasts";
             this.enemyCasts.Size = new System.Drawing.Size(69, 37);
             this.enemyCasts.TabIndex = 1;
-            this.enemyCasts.Text = "100";
+            this.enemyCasts.Text = "000";
             // 
             // playerCasts
             // 
@@ -171,7 +171,7 @@
             this.playerCasts.Name = "playerCasts";
             this.playerCasts.Size = new System.Drawing.Size(69, 37);
             this.playerCasts.TabIndex = 2;
-            this.playerCasts.Text = "100";
+            this.playerCasts.Text = "000";
             // 
             // Versus
             // 

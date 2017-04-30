@@ -15,7 +15,18 @@ namespace Wizard_Duel
         public Versus()
         {
             InitializeComponent();
-            
+
+            Character player = new Character();
+            Character computer = new Character();
+
+            player.Name = "ARGOS";
+            player.Health = 50;
+            player.CastsRemaining = 100;
+
+            computer.Name = "COMPUTER";
+            computer.Health = 50;
+            computer.CastsRemaining = 100;
+            opponentName.Text = computer.Name;
         }
 
         private void Versus_Load(object sender, EventArgs e)
